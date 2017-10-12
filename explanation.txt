@@ -1,0 +1,9 @@
+Once you've installed all the dependencies, make sure to install babel and yarn in your local machine!
+After open 2 terminals and in 1 run the conversor because web browsers doesn't know why jsx is so we have to convert all the code to something he can read!
+
+1st terminal type babel src/app.js --out-file = public/scripts/app,js --presets=env,react --watch
+2nd terminal type live-server public
+
+you need to create a directory and a js file to be the input in jsx and another one in some public folder to be the output, and this output will be the code that the browser can read indeed!
+
+by Walter Figueiredo!
